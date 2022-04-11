@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>More Info</title>
+
+        <style>
+
+            body {
+                margin: 0;
+                background-color: black;
+                font-family: arial;
+            }
+            .header {
+                color: white;
+            }
+            .headerleft {
+                background-color: rgb(227, 66, 66);
+            }
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+            @media screen and (max-width: 768px) {
+                .navbar {
+                    display: grid;
+                }
+            }
+            .navbar a {
+                float: left;
+                font-size: 17px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .carsdiv {
+                float: left;
+                overflow: hidden;
+            }
+            .carsdiv .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+            .carsdiv .dropbtn {
+                position: relative;
+                font-size: 16px;
+            }
+            .navbar a:hover, .carsdiv:hover .dropbtn, .customdiv:hover .dropbtn2, .custominbody:hover .dropbtn3 {
+                background-color: red;
+                cursor: pointer;
+            }
+            .navbar input[type=text] {
+                float: right;
+                padding: 6px;
+                width: 20%;
+                border: none;
+                margin-top: 8px;
+                margin-right: 50px;
+                font-size: 17px;
+            }
+            @media screen and (max-width: 768px) {
+                .navbar a, .navbar input[type=text] {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+                }
+            }
+            .navbar input[type=text] {
+                border: 1px solid #ccc;
+            }
+            .cars_content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .cars_content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                cursor: pointer;
+                
+            }
+            .cars_content a:hover {
+                background-color: #ddd;
+            }
+            .carsdiv:hover .cars_content {
+                display: block;
+            }
+
+            .customdiv {
+                float:left;
+                overflow: hidden;
+            }
+            .customdiv .dropbtn2 {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+            .custom_content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .custom_content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                cursor: pointer;
+            }
+            .custom_content a:hover {
+                background-color: #ddd;
+            }
+            .customdiv:hover .custom_content {
+                display: block;
+            }
+            @media screen and (max-width: 768px) {
+                .custom_content a {
+                    font-size: 10px;
+                }
+                .cars_content a {
+                    font-size: 10px;
+                }   
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="headerleft">
+                <img src="OneClick_logo.png" alt="OneClick_logo" title="OneClick_logo" width="250px" height="70px" style="margin: 0px; padding: 30px; background-color: rgb(227, 66, 66);">
+            </div>
+
+            <div class="navbar">
+                <a href="OneClick.html">Home</a>
+
+                <div class="carsdiv">
+                    <button class="dropbtn">Cars</button>
+
+                    <div class="cars_content">
+                        <a href="Audi.html">Audi R8 V10</a>
+                        <a href="MercedesBenzSL63.html">Mercedes Benz SL63</a>
+                        <a href="Porsche911s.html">Porsche 911 S</a>
+                        <a href="BmwM8.html">BMW M8 Competition</a>
+                        <a href="ToyotaSupra.html">Toyota GR Supra</a>
+                        <a href="KiaStinger.html">KIA Stinger</a>
+                        <a href="HyundaiElantra.html">Hyundai Elantra N</a>
+                        <a href="camaroZL1.html">Camaro ZL1</a>
+                    </div>
+                </div>
+
+                <div class="customdiv">
+                    <button class="dropbtn2">Customizations</button>
+
+                    <div class="custom_content">
+                    <a href="redSeatCovers.html">Red Seat Covers</a>
+                    <a href="saddleBlanketCovers.html">Saddle Blanket Seat Covers</a>
+                    <a href="blackFauxCovers.html">Black Faux Leather Car Seat Covers</a>
+                    <a href="d8SteeringWheel.html">D8 Universal Fit Leather Steering Wheel Cover</a>
+                    <a href="blackAndRedCover.html">Red And Black Steering Wheel Cover</a>
+                    <a href="microFiberWheelCover.html">Microfiber Steering Wheel Cover</a>
+                    </div>
+                </div>
+
+                <div class="searchbar">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </div>
+
+
+        <h1 style="color: rgb(173, 50, 173); text-align: center;">More Info coming soon...</h1>
+
+    </body>
+</html>
