@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Sign up</title>
+        <style>
+
+            body {
+                font-family: arial;
+                margin: 0;
+                padding: 0;
+                background-image: url(https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .sign-up-form {
+                width: 300px;
+                box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+                background-color: #fff;
+                padding: 20px 50px;
+                margin: 8% auto 0;
+                text-align: center;
+            }
+            .sign-up-form h1 {
+                color: #1c8adb;
+                margin-bottom: 30px;
+            }
+            .input-box {
+                border-radius: 20px;
+                padding: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: -10px;
+                width: 100%;
+                border: 1px solid #999;
+                outline: none;
+            }
+            button {
+                color: #fff;
+                width: 100%;
+                padding: 10px;
+                border-radius: 20px;
+                font-size: 15px;
+                margin: 10px 0;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+            .signup-btn {
+                background-color: #1c8adb;
+            }
+            .twitter-btn {
+                background-color: #21afde;
+            }
+            a {
+                text-decoration: none;
+            }
+            hr {
+                margin-top: 20px;
+                width: 80%;
+            }
+            .or {
+                background-color: #fff;
+                width: 30px;
+                margin: -19px auto 10px;
+            }
+            img {
+                width: 70px;
+                margin-top: -50px;
+            }
+
+        </style>
+        <script defer src="Signup.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+            
+        <div class="sign-up-form">
+            <img src="user-icon.png">
+            <h1>Sign up Now</h1>
+            <form id="form">
+                <input type="text" class="input-box" id="name" placeholder="Your name" required>
+                <input type="email" class="input-box" id="email" placeholder="Your Email" required>
+                <input type="password" class="input-box" id="password" placeholder="Your Password" required>
+                <p><span><input type="checkbox"></span>I agree to the Terms of Services</p>
+                <button type="submit" class="signup-btn">Sign up</button>
+            </form>
+        </div>
+    </body>
+</html>
