@@ -337,3 +337,26 @@ html, body {
         border-radius: 100%;
     }
 }
+.header .headerleft {
+    display: grid;
+}
+.header .headerleft .signUpDiv {
+    display: flex;
+}
+.header .headerleft .signUpDiv .signup-btn, .header .headerleft .signUpDiv .signin-btn {
+    border: none;
+    outline: none;
+    background-color: rgba(47, 133, 209, 0.6);
+    color: white;
+    padding: 10px 20px;
+    margin: 0px 0px 10px 35px;
+}
+.header .headerleft .signUpDiv button:hover {
+    background-color: rgba(30, 83, 130, 1);
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .header .headerleft .signUpDiv .signup-btn, .header .headerleft .signUpDiv .signin-btn {
+        width: 20%;
+    }
+}
