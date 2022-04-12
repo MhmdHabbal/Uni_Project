@@ -3,6 +3,14 @@ html, body {
     overflow-x: hidden;
     font-family: Arial;
     margin: 0;
+    background-image: url(https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background-color {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .body {
     color: black;
@@ -20,6 +28,10 @@ html, body {
 @media screen and (max-width: 768px) {
     .navbar {
         display: grid;
+    }
+    .navbar a {
+        display: grid;
+        justify-content: left;
     }
 }
 .navbar a {
@@ -146,6 +158,7 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 200px;
+    color: white;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
