@@ -1,6 +1,9 @@
-document.getElementById('signup-btn').onclick = function() {
-    location.href="SignupForm.html";
+function signup() {
+    location.href = "SignupForm.html";
 }
-document.getElementById('signin-btn').onclick = function() {
-    location.href="SigninForm.html";
+document.getElementById('signup-btn').addEventListener('click', signup);
+
+function signin() {
+    location.href = "SigninForm.html";
 }
+document.getElementById('signin-btn').addEventListener('click', signin);
